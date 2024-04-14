@@ -2822,7 +2822,8 @@ transition:all .5s ease;
 {   
   position: relative;
   position: relative;
-    background:linear-gradient(rgb(222, 235, 249), rgb(229 241 251));
+  background: linear-gradient(rgb(235 233 241), rgb(229 241 251));
+
 }
 
 .precsvc-wrapper::before
