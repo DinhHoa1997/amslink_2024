@@ -1,0 +1,178 @@
+/* Mobile & Table */
+@media (max-width: 1023px) {}
+
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+/* Table Lanscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
+
+/* Mobile */
+
+@media (max-width: 739px) {
+  
+    .homeinfo-item
+    {
+        display: block;
+    }
+    .homeinfo-item-img
+    {
+        width: 100%;
+        border-bottom: 1px solid #FFF;
+     
+    }
+    .homeinfo-wrapper .grid{
+        padding: 0px;
+    }
+    .homeinfo-intro{
+        display: none;
+    }
+    .homeinfo-item-name
+    {
+        float: left;
+        line-height: 60px;
+    }
+    .homeinfo-item-img::before
+    {
+       opacity: 0;
+    }
+    .homeinfo-item-img img{
+        max-width: 60px;
+        float: left;
+        height: 60px;
+    }
+    .item-top, .item-service{
+        padding: 10px;
+    }
+    .homeservice-item-top {
+    
+        background-size: 80% 90%;
+        background-position: right center;
+        background-repeat: no-repeat;
+    }
+    .homeservice-name
+    {
+        font-size: 20px;
+    }
+    .home-service-item img{
+        min-height: 200px;
+        object-fit: cover;
+    }
+.homeservice-wrapper .grid
+{
+    padding: 0px;
+    margin: 0;
+}
+.homenews-item img{
+    min-height: 150px;
+    object-fit: cover;
+}
+.footer-end .footer-block
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #bdbcbc;
+}
+.f-title
+{
+    border: none;
+}
+.slidehome-content h2 {
+    font-size: 36px;
+    max-width: 350px;
+    letter-spacing: 1px;
+}
+.slidehome-content{
+    transform: translate(-50%, 30%);    
+}
+.btn-muangay
+{
+    padding: 10px 30px;
+}
+.cart
+{
+    float: right;
+}
+.search-mb
+{
+    float: right;
+    margin-right:5px;
+    font-size: 20px;
+    
+}
+.cartnumber{
+    top:-5px;
+}
+.frm-search-mb
+{
+    position: absolute;
+    top:40px;
+    display: none;
+    right:0px;
+   
+}
+#searchformtab input
+{
+    background-color: #FFF;
+}
+.closeX
+{
+    position: absolute;
+    top:-10px;
+    right: 0px;
+}
+.select_wrap
+{
+    max-width: 100%;
+}
+.default_option i
+{
+    color: #0039BA;
+}
+}
+
+/* Ipad pro */
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+
+/* PC LARGE */
+
+@media (min-width: 1919px) {
+    .grid {
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1200px) {
+    .galleries {
+    -moz-column-count:    4;
+    -webkit-column-count: 4;
+    column-count:         4;
+    }
+  }
+  @media (max-width: 1000px) {
+    .galleries {
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
+    }
+  }
+  @media (max-width: 800px) {
+    .galleries {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+    }
+  }
+  @media (max-width: 400px) {
+    .galleries {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+    }
+  }
+  

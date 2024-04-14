@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&family=Montserrat:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family:Googlesans-B;
+    src: url('fonts/GoogleSans-Bold.ttf');
+    font-display: swap;
+    font-weight: normal;
+}
+
+
+
+@font-face {
+    font-family:Googlesans;
+    src: url('fonts/GoogleSans-Medium.ttf');
+    font-display: swap;
+    font-weight: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family:Nautica;
+    src: url('fonts/SVN-Nautica.otf');
+    font-display: swap;
+    font-weight: normal;
+    font-weight: normal;
+}
+
