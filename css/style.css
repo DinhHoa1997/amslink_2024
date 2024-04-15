@@ -2105,6 +2105,14 @@ background-size: auto;
   text-align: center;
   text-transform: uppercase;
 }
+.page-title
+{
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--orange);
+  text-align: center;
+  text-transform: uppercase;
+}
 .poster 
 {
   height: 100%;
@@ -2835,7 +2843,7 @@ transition:all .5s ease;
   left: 0px;
   top: 50%;
   width: 100%;
-  transform: translate(0px, -50%);
+  transform: translate(0px, -40%);
   position: absolute;
   padding: 200px;
   
@@ -2869,4 +2877,292 @@ transition:all .5s ease;
   padding: 0px 65px 20px 20px;
   font-weight: 600;
   line-height: 1.3;
+}
+/* tieng anh tieu hoc */
+.method-wrapper 
+{
+  background-color: #F4F1EC;
+}
+.methodpri-item {
+  display: flex;
+  width: 37%;
+  justify-content: space-between;
+  margin: 30px 0px;
+  
+}
+.method-pri
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-image: url(/uploaded/ta_iteuhoc/Tiếng\ Anh\ tiểu\ học_hoc\ sinh\ 01.png);
+}
+.methodpri-number
+{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  position: relative;
+
+  font-size: 30px;
+  font-weight: 600;
+  color: #FFF;
+  background: #C1EFF9;
+  border-radius: 50%;
+}
+.methodpri-number div{
+  
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  line-height: 80px;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color:#74DDF2 ;
+}
+.methodpri-desc
+{
+  width: calc(100% - 170px);
+}
+.methodpri-intro 
+{
+  max-width: 250px;
+  font-weight: 500;
+}
+.methodpri-name {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  max-width: 300px;
+  color: #74ddf2;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+.methodpri-item:nth-child(2) .methodpri-number div
+{
+  background-color:#FA6E01 ;
+}
+.methodpri-item:nth-child(2) .methodpri-number 
+{
+  background-color:#FDCEAA ;
+}
+
+.methodpri-item:nth-child(2) .methodpri-name
+{
+  color:#FA6E01;
+}
+
+.methodpri-item:nth-child(3) .methodpri-number div
+{
+  background-color:#FFCF1A ;
+}
+.methodpri-item:nth-child(3) .methodpri-number 
+{
+  background-color:#FFEFB2 ;
+}
+
+.methodpri-item:nth-child(3) .methodpri-name
+{
+  color:#FFCF1A;
+}
+
+.methodpri-item:nth-child(4) .methodpri-number div
+{
+  background-color:#6424EA ;
+}
+.methodpri-item:nth-child(4) .methodpri-number 
+{
+  background-color:#E9E4FC ;
+}
+
+.methodpri-item:nth-child(4) .methodpri-name
+{
+  color:#6424EA;
+}
+
+.methodpri-item:nth-child(4), .methodpri-item:nth-child(3)
+{
+  margin-top: 100px;
+}
+.primuctieu-item
+{
+  color: #FFF;
+}
+
+.primuctieu-item ul li{
+  padding-left: 30px;
+  color: #FFF;
+  position: relative;
+  margin-bottom: 10px;
+}
+.primuctieu-item ul li::before{
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #FFF;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.pri-wrapper
+{
+  margin-top: -50px;
+  background-image: url(/uploaded/ta_iteuhoc/Tiếng\ Anh\ tiểu\ học_BG\ 03.png);
+}
+.priactivites
+{
+  background-size: auto 100%; 
+   background-image: url(/uploaded/ta_iteuhoc/Tiếng\ Anh\ tiểu\ học_pattern.png);
+}
+.priactivites-intro
+{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--maincolor);
+}
+.priactivites-list
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.priactivite-item
+{
+  width: 48.5%;
+  padding: 15px 10px;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #d9d9dd;
+  font-weight: 500;
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+}
+.priactivite-name
+{
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+.priactivite-item::before
+{
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  border-radius:40px 0px 0px 0px;
+  background-color: #74DDF1;
+}
+.priactivite-item:nth-child(2):before
+{
+  background-color: var(--orange);
+}
+.priactivite-item:nth-child(3):before
+{
+  background-color: #FECF1E;
+}
+.priactivite-item:nth-child(4):before
+{
+  background-color: #6624E8;
+}
+.page-intro
+{
+  max-width: 800px;
+  margin: auto;
+  text-align:center;
+  font-weight: 500;
+}
+.prihot-image img
+{
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px #9d9d9d;
+}
+.prihot-item ul{
+  list-style-type: none;
+}
+.pritaget-img {
+  margin-right: 0px;
+  text-align: right;
+}
+.prihot-item ul li{
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.prihot-item ul li::before{
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #333;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.pritaget-list li
+{
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--maincolor);
+  list-style-type: none;
+  margin: 15px;
+}
+.pritaget-list li:nth-child(2n)
+{
+  color: var(--orange);
+}
+.priinfo
+{
+  color: #FFF;
+  background-size: 100%;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #01043E;
+  background-image: url(/uploaded/ta_iteuhoc/Tiếng\ Anh\ tiểu\ học_lop\ hoc\ 01.png);
+}
+.priinfo-title
+{
+
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+.prinfo-list
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.priinfo-item
+{
+  display: flex;
+  align-items: center;
+}
+.priinfo-number
+{
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--orange);
+}
+.priinfo-name
+{
+  font-weight: 700;
+  font-size: 18px;
+}
+.priinfo-intro
+{
+  max-width: 250px;
+}
+.priinfo-desc
+{
+  margin-left: 10px;
 }
