@@ -2801,9 +2801,7 @@ transition:all .5s ease;
   color: var(--orange);
   font-size: 30px;
 }
-::marker {
-  color: var(--orange);
-}
+
 .presitem-img 
 {
   height: 350px;
@@ -3312,4 +3310,233 @@ transition:all .5s ease;
   
  
   background: linear-gradient(rgb(255 255 255), rgb(229 241 251));
+}
+/* chuong trinh ielts */
+.ielts-wrapper
+{
+  background-color: #D7ECFF;
+}
+.ieltsprogram-img {
+  margin: -20px;
+  padding: 20px 27px 27px 20px;
+  background-size: 100% 100%;
+  background-position: center top;
+  background-image: url(/uploaded/chuongtrinh_ielts/Chương\ trình\ \ IELTS\ FN_chuong\ trinh\ hoc\ box.png);
+}
+.ieltsprogram-img img{
+  border-radius: 10px;
+}
+.ieltstarget-item ul, .ieltsprogram-item ul {
+  list-style-type: none;
+}
+
+.ieltstarget-item ul li, .ieltsprogram-item ul li{
+  padding-left: 30px;
+
+  position: relative;
+  margin-bottom: 10px;
+}
+.ieltstarget-item ul li::before, .ieltsprogram-item ul li::before{
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: var(--textcolor);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.ieltsprogram-item ul li::before
+{
+  background-color: var(--orange);
+}
+.ielts-output
+{
+  background-image: url();
+}
+.ielts-challenge
+{
+  background-repeat: no-repeat;
+  background-image: url(/uploaded/chuongtrinh_ielts/Chương\ trình\ \ IELTS\ FN_BG\ amslink\ challenge.png);
+}
+.ielts-challenge .sub-title
+{
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+}
+#swiper-challenge .swiper-slide.swiper-slide-active
+{
+  z-index: 11;
+}
+#swiper-challenge .swiper-slide.swiper-slide-active img {
+  width: 100%;
+}
+.ielts-challenge .ieltschallenge
+{
+  color: #FFF;
+}
+.ieltschallenge-list
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ieltschallenge-item
+{
+  display: flex;
+  align-items: center;
+
+  max-width: 25%;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+.ieltschallenge-item::before{
+  content: "";
+  width: 2px;
+  height: 80%;
+  position: absolute;
+  right: 0px;
+  background-color: #ffffff9d;
+  top: 50%;
+  transform: translate(0px, -50%);
+}
+.ieltschallenge-item:nth-last-child(1):before
+{
+  display: none;
+}
+.ieltschallenge-number
+{
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--orange);
+  background-clip: text;
+  letter-spacing: 5px;
+  padding: 3px;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  filter: drop-shadow(3px 1px 1px var(--maincolor));
+  position: relative;
+  line-height: 1;
+  background-image: linear-gradient(to right,#FFF, #FFF);
+}
+.ieltschallenge-name
+{
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFF;
+  text-align: center;
+ 
+}
+.ieltschallenge-intro
+{
+  max-width: 250px;
+  color: #FFF;
+}
+.ieltschallenge-desc
+{
+  margin-left: 10px;
+}
+.ieltschallenge-item:nth-child(2), .ieltschallenge-item:nth-child(3), .ieltschallenge-item:nth-child(4)
+{
+  flex-wrap: wrap;
+}
+.ieltschallenge-item:nth-child(2) .ieltschallenge-number
+{
+  width: 100%;
+  text-align: center;
+}
+.ieltschallenge-item:nth-child(2) .ieltschallenge-desc
+{
+  width: 100%;
+  text-align: center;
+} 
+.ieltsreview
+{
+  position: relative;
+}
+.ieltsreview::before
+{
+  content: "";
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: 50%;
+  background: #FFF;
+  transform: translate(-50%, 0px);
+  box-shadow: 0px 0px 5px #9d9d9d;
+  border-radius: 15px;
+}
+.ieltsreview-title
+{
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--orange);
+  margin-left: 20px;
+  position: relative;
+  padding-bottom: 30px;
+}
+.ieltsreview img{
+  margin-right: 0px;
+  max-width: 100px;
+}
+.ieltsreview-title::before
+{
+  content: "";
+  width: 60%;
+  left: 50%;
+  transform: translate(-65%, 0px);
+  background-color: var(--orange);
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+}
+.ieltsreview-title::after
+{
+  content: "";
+  width: 8%;
+  left: 80%;
+  transform: translate(-40%, 0px);
+  background-color: var(--orange);
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+}
+#swiper-ieltsreview .swiper-slide
+{
+  margin: 30px 0px;
+  transition: all .5s ease;
+  background-color: #FFF;
+ 
+  padding: 30px 15px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 8px #9e9d9d;
+
+  transition: all .5s ease;
+}
+
+#swiper-ieltsreview .swiper-slide.swiper-slide-next
+{
+  margin: 15px 0px -15px;
+
+}
+
+#swiper-ieltsreview .swiper-slide.swiper-slide-next .ieltsreview-item
+{
+  padding-bottom: 30px;
+}
+.ieltsreview-item
+{
+  color: var(--maincolor);
+  font-weight: 500;
+}
+.ieltsreview-name
+{
+  font-weight: 700;
 }
