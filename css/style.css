@@ -3352,11 +3352,16 @@ transition:all .5s ease;
 }
 .ielts-output
 {
-  background-image: url();
+  background-repeat:no-repeat;
+  background-position: top center;
+  background-size: 60%;
+  background-image: url(/uploaded/chuongtrinh_ielts/Chương\ trình\ \ IELTS_dia\ cau.png);
 }
 .ielts-challenge
 {
+  background-size:100% 100%;
   background-repeat: no-repeat;
+  background-position: center center;
   background-image: url(/uploaded/chuongtrinh_ielts/Chương\ trình\ \ IELTS\ FN_BG\ amslink\ challenge.png);
 }
 .ielts-challenge .sub-title
@@ -3367,12 +3372,28 @@ transition:all .5s ease;
   font-size: 20px;
   font-weight: 500;
 }
-#swiper-challenge .swiper-slide.swiper-slide-active
-{
-  z-index: 11;
+
+#swiper-challenge .swiper-slide {
+  position: relative;
+  padding: 5px;
+  background-position: center center;
+  margin: 25px 0px;
+  /* margin-top: 15px; */
 }
-#swiper-challenge .swiper-slide.swiper-slide-active img {
-  width: 100%;
+#swiper-challenge .swiper-slide::before
+{
+  background-image: url(/uploaded/chuongtrinh_ielts/Chương\ trình\ \ IELTS\ FN_anh\ ky\ thi\ box.png);
+  background-size: 100% 100%;
+  content: "";
+  position: absolute;
+  width: calc(100% + 50px);
+  height: calc(100% + 50px);
+  left: -25px;
+  top: -18px;
+}
+.challenge-sildeitem img{
+  position: relative;
+  border-radius: 20px;
 }
 .ielts-challenge .ieltschallenge
 {
