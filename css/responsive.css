@@ -11,125 +11,108 @@
 
 @media (max-width: 739px) {
   
-    .homeinfo-item
-    {
-        display: block;
-    }
-    .homeinfo-item-img
-    {
-        width: 100%;
-        border-bottom: 1px solid #FFF;
-     
-    }
-    .homeinfo-wrapper .grid{
+    .homecat-title {
+       
+        font-size: 24px;
+       
+        letter-spacing: 2px;
         padding: 0px;
+        
     }
-    .homeinfo-intro{
-        display: none;
-    }
-    .homeinfo-item-name
+    .homecat-intro
     {
-        float: left;
-        line-height: 60px;
+        font-size: 16px;
     }
-    .homeinfo-item-img::before
+    .homeinfo-wrapper {
+        margin-top: -25px;
+        margin-bottom: 30px;
+    }
+    .bg-wrapper {
+        background-size: 100% 100%;
+    }
+    .homecamket-right
     {
-       opacity: 0;
+        margin-top: 20px;
+
     }
-    .homeinfo-item-img img{
-        max-width: 60px;
-        float: left;
-        height: 60px;
+    .thanhtich-name {
+        font-size: 15px;
     }
-    .item-top, .item-service{
+    .thanhtich-item
+    {
         padding: 10px;
     }
-    .homeservice-item-top {
-    
-        background-size: 80% 90%;
-        background-position: right center;
-        background-repeat: no-repeat;
+    .homeleader_wrapper {
+        position: relative;
+        z-index: 4;
+        padding-top: -2px;
+        margin-top: -57px;
+        background-size: cover;
+        background-position: center center;
     }
-    .homeservice-name
+    .homenews-item {
+     
+        margin-bottom: 30px;
+    }
+    .quote {
+        /* padding: 10px 20px; */
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .quote::before {
+      
+        width: 60px;
+        height: 60px;
+    }
+    .quote::after {
+      
+        width: 60px;
+       
+        right: 0px;
+        bottom: -25px;
+      
+    }
+    .formbooking-home {
+        max-width: 100%;
+      
+        padding: 10px;
+    }
+    .text-booking label {
+        font-size: 14px;
+    }
+    #tabsinfo-nav {
+        margin-right: 0px;
+    }
+    .tabinfonav-item a {
+        font-size: 22px;
+    }
+    #tabs-nav.tabs-lichsu {
+       
+        overflow: scroll;
+    }
+    .info_csvc::before
     {
-        font-size: 20px;
+        display: none;
     }
-    .home-service-item img{
-        min-height: 200px;
-        object-fit: cover;
+    .pres-item {
+        width: 100%;
+      
     }
-.homeservice-wrapper .grid
+    .presitem-img {
+        height: auto;
+    }
+    .pres-item:nth-last-child(1) {
+        display: block;
+    }
+    .pres-item:nth-last-child(1) .pres-desc, .pres-item:nth-last-child(1) .presitem-img
 {
-    padding: 0px;
-    margin: 0;
+    width: 100%;
 }
-.homenews-item img{
-    min-height: 150px;
-    object-fit: cover;
-}
-.footer-end .footer-block
+.preactivites-item
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #bdbcbc;
+    margin-bottom: 0px;
 }
-.f-title
-{
-    border: none;
-}
-.slidehome-content h2 {
-    font-size: 36px;
-    max-width: 350px;
-    letter-spacing: 1px;
-}
-.slidehome-content{
-    transform: translate(-50%, 30%);    
-}
-.btn-muangay
-{
-    padding: 10px 30px;
-}
-.cart
-{
-    float: right;
-}
-.search-mb
-{
-    float: right;
-    margin-right:5px;
-    font-size: 20px;
     
-}
-.cartnumber{
-    top:-5px;
-}
-.frm-search-mb
-{
-    position: absolute;
-    top:40px;
-    display: none;
-    right:0px;
-   
-}
-#searchformtab input
-{
-    background-color: #FFF;
-}
-.closeX
-{
-    position: absolute;
-    top:-10px;
-    right: 0px;
-}
-.select_wrap
-{
-    max-width: 100%;
-}
-.default_option i
-{
-    color: #0039BA;
-}
 }
 
 /* Ipad pro */
